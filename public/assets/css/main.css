@@ -1,0 +1,129 @@
+/* RESET CSS AVEC NOS PARAMETRAGES */
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../font/lemon_milk/LEMONMILK-Regular.otf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../font/lemon_milk/LEMONMILK-RegularItalic.otf");
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../font/lemon_milk/LEMONMILK-Medium.otf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../font/lemon_milk/LEMONMILK-MediumItalic.otf");
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../font/lemon_milk/LEMONMILK-Light.otf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../font/lemon_milk/LEMONMILK-LightItalic.otf");
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../font/lemon_milk/LEMONMILK-Bold.otf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "lemonMilk";
+  src: url("../font/lemon_milk/LEMONMILK-BoldItalic.otf");
+  font-weight: 700;
+  font-style: italic;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: "lemonMilk", sans-serif;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+/* COULEURS */
+
+.header__img {
+  width: 20%;
+  margin-left: -0.6rem;
+  position: absolute;
+
+}
+
+.header {
+  background-color: black;
+  font-size: 20px;
+  height: 15%;
+  border-bottom: 1rem solid;
+  border-color: rgb(233, 126, 4);
+}
+
+
+.header > nav a:hover {
+  color: rgb(231, 177, 0);
+}
+
+.header > nav a{
+  color: rgb(233, 126, 4);
+  font-size : 1.8rem;
+}
+
+.acceuil-section-btn {
+  background-color: rgb(231, 177, 0);
+  border-radius: 3px;
+  width: 10%;
+  font-family: "lemonMilk", sans-serif;
+  font-weight: 500;
+  border: none;
+}
+
+.show {
+  display: block;
+}
+
+.lm-light {
+  font-family: "lemonMilk", sans-serif;
+  font-weight: 300;
+  font-size: larger;
+}
+
+.body-container {
+  margin-left: .0rem;
+}
+
+.section-twitter {
+  border-right: 1rem solid;
+  border-color: rgb(231, 177, 0);
+}
+
+
+
+.rs{
+  font-size: 50px;
+
+}
+
+footer {
+  background-color: black;
+}

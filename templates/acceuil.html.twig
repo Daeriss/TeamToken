@@ -1,0 +1,37 @@
+{% extends 'base.html.twig' %}
+
+ {% block stylesheets %}
+         <link rel="stylesheet" href="./assets/css/slider.css">
+
+ {% endblock %}
+
+{% block body %}
+
+
+
+    <div class="container-fluid p-0 body-container row">
+
+        <section class="m-0 section-twitter p-0 col-3">
+            <a class=" twitter-timeline" data-lang="fr" data-width="600" data-height="800" data-theme="dark" href="https://twitter.com/Team_Token_?ref_src=twsrc%5Etfw">Tweets by Team_Token_</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </section>
+
+
+        <section class="d-flex container flex-column m-0  p-0 col-8">
+            <div class="marquee">
+                <ul class="marquee-content">
+                    <li><img class="slider" src="./assets/img/adventureTime.jpg"></li>
+                    <li><img class="slider" src="./assets/img/stevenUnivers.jpg"></li>
+                    <li><img class="slider" src="./assets/img/wakfu.jpg"></li>
+                </ul>
+            </div>
+        </section>
+
+    </div>
+
+
+{% endblock %}
+
+ {% block javascripts %}
+         <script src="./assets/js/slider.js"> </script>
+ {% endblock %}
